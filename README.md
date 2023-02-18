@@ -2,7 +2,7 @@
 
 ## Kumpulkan semua tugas dan quis disini ya, iya....
 
-- Ketua Kelas : Bryan Sampurara
+- Ketua Kelas : Bryan Samperura
 
 - Kelompok 1 : (1204039) Muammar Alfien Zaidan, & (1204029) Fadil Febriansyah
 
