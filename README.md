@@ -11,4 +11,4 @@
 
 - Kelompok 4 : (1204041) Bryan Samperura, (1204055) Muhammad Ilman Aqilaa
 
--Kelompok 5 : (1204037) Muhammad Sapwan Suhadi, (1204045) Muhammad Rifqi Daffa
+- Kelompok 5 : (1204037) Muhammad Sapwan Suhadi, (1204045) Muhammad Rifqi Daffa
