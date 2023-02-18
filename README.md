@@ -1,6 +1,6 @@
 # SISTER_3B
 
-##Kumpulkan semua tugas dan quis disini ya, iya....
+## Kumpulkan semua tugas dan quis disini ya, iya....
 
 - Ketua Kelas : Bryan Sampurara
 
