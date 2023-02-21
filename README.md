@@ -5,7 +5,7 @@
 ## Pull Request : 
 - Chapter(sesuaikan dengan chapter)-NPM-NAMA
 
-## Data Mahasiswa :
+## Ketua Kelas :
 - Ketua Kelas : Bryan Samperura
 
 ## Data Kelompok :
