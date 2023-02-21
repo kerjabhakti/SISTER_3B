@@ -3,7 +3,7 @@
 ## Kumpulkan semua tugas dan quis disini ya, iya....
 
 ## Pull Request : 
-- Chapter(sesuaikan dengan chapter)-NPM-NAMA
+- C(sesuaikan dengan chapter)-NPM-NAMA
 
 ## Ketua Kelas :
 - Ketua Kelas : Bryan Samperura
