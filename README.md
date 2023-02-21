@@ -2,8 +2,13 @@
 
 ## Kumpulkan semua tugas dan quis disini ya, iya....
 
+## Pull Request : 
+- Chapter(sesuaikan dengan chapter)-NPM-NAMA
+
+## Data Mahasiswa :
 - Ketua Kelas : Bryan Samperura
 
+## Data Kelompok :
 - Kelompok 1 : (1204039) Muammar Alfien Zaidan, & (1204029) Fadil Febriansyah
 
 - Kelompok 2 : (1204036) Nawaf Naofal, & (1194031) R. Bimantoro Putra
