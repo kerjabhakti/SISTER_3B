@@ -20,7 +20,7 @@ else:
 # Program to find the sum of all numbers stored in a list
 
 # List of numbers
-numbers = [55, 5, 5, 5, 5]
+numbers = [5, 55, 5, 5, 5]
 
 # variable to store the sum
 sum = 10

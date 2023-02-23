@@ -4,7 +4,7 @@ class kontrakan:
     kamar = 7
     nama1 = 'matt'
     nama2 = 'bima'
-    nama3 = 'putra'
+    nama3 = 'nawaf'
     nama4 = 'naon'
     nama5 = 'sia'
     nama6 = 'eta'
