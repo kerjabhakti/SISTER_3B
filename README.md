@@ -2,8 +2,16 @@
 
 ## Kumpulkan semua tugas dan quis disini ya, iya....
 
+## Commit dari repo masing-masing :
+- `C(sesuaikan dengan chapter)-NPM-NAMA`
+
+## Pull Request : 
+- `C(sesuaikan dengan chapter)-NPM-NAMA`
+
+## Ketua Kelas :
 - Ketua Kelas : Bryan Samperura
 
+## Data Kelompok :
 - Kelompok 1 : (1204039) Muammar Alfien Zaidan, & (1204029) Fadil Febriansyah
 
 - Kelompok 2 : (1204036) Nawaf Naofal, & (1194031) R. Bimantoro Putra
