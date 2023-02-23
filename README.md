@@ -2,8 +2,11 @@
 
 ## Kumpulkan semua tugas dan quis disini ya, iya....
 
+## Commit dari repo masing-masing :
+- `C(sesuaikan dengan chapter)-NPM-NAMA`
+
 ## Pull Request : 
-- C(sesuaikan dengan chapter)-NPM-NAMA
+- `C(sesuaikan dengan chapter)-NPM-NAMA`
 
 ## Ketua Kelas :
 - Ketua Kelas : Bryan Samperura
