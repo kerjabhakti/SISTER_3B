@@ -20,7 +20,7 @@ for val in numbers:
 	sum = sum+val
 
 # Output: The sum is 48
-print("TOTAL TAGIHAN", sum)
+print("TOTAL TAGIHAN Rp.", sum)
 
 
 #WHILE
