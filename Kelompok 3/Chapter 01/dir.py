@@ -18,16 +18,16 @@ else:
 # Program to find the sum of all numbers stored in a list
 
 # List of numbers
-numbers = [6, 6, 3, 8, -3, 2, 5, 44, 12]
+numbers = [6, 6, 3, 8, 2]
 
 # variable to store the sum
-sum = 0
+sum = 20
 
 # iterate over the list
 for val in numbers:
 	sum = sum+val
 
-# Output: The sum is 48
+# Output: The sum is 45
 print("The sum is", sum)
 
 # Function of  python 

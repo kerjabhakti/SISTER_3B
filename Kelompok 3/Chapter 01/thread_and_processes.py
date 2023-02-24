@@ -11,6 +11,7 @@ out_list = list()
 def do_something(count, out_list):
 	for i in range(count):
 		out_list.append(random.random())
+
 """
 #Serial
 start_time = time.time()
@@ -18,6 +19,7 @@ for _ in range(NUM_WORKERS):
     do_something(size,out_list)
 end_time = time.time()
 print("Serial time=", end_time - start_time)
+
 """
 
 #MultiThreading
