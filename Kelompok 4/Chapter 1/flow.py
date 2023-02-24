@@ -15,11 +15,11 @@
 
 num = 1
 if num > 0:
-    print("Positive number")
+    print("ADA YANG DATANG")
 elif num == 0:
-    print("Zero")
+    print("TIDAK ADA YANG DATANG")
 else:
-    print("Negative number")
+    print("BELUM ADA YANG DATANG")
 
 
 # Perulangan dimana value pada variable sum akan ditambahkan oleh
@@ -33,7 +33,7 @@ for val in numbers:
 	sum = sum+val
 
 # Output: The sum is 48
-print("The sum is", sum)
+print("Jumlah yang ada adalah", sum)
 
 # Perulangan untuk menjumlahkan seluruh bilangan bulat
 # yang dimulai dari angka satu hingga n. Variabel n bernilai 10
@@ -51,4 +51,4 @@ while i <= n:
     i = i+1    # update counter
 
 # print the sum
-print("The sum is", sum)
+print("Jumlah yang ada adalah", sum)
