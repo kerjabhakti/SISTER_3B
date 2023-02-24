@@ -9,18 +9,18 @@ num = 1
 # num = -4.5
 
 if num > 0:
-    print("Positive number")
+    print("Angka Positif")
 elif num == 0:
-    print("Zero")
+    print("Nilai Nol")
 else:
-    print("Negative number")
+    print("Angka Negatif")
 
 
 
 # Program to find the sum of all numbers stored in a list
 
 # List of numbers
-numbers = [6, 6, 3, 8, -3, 2, 5, 44, 12]
+numbers = [10, 6, 3, 8, -3, 2, 5, 44, 12]
 
 # variable to store the sum
 sum = 0
@@ -29,5 +29,5 @@ sum = 0
 for val in numbers:
 	sum = sum+val
 
-# Output: The sum is 48
-print("The sum is", sum)
+# Output: The sum is 87
+print("Nilai output :", sum)
