@@ -5,72 +5,65 @@ import time
 LOG_FORMAT = '%(asctime)s %(threadName)-17s %(levelname)-8s %(message)s'
 logging.basicConfig(level=logging.INFO, format=LOG_FORMAT)
 
-ayats = []
+quranAyat = []
 condition = threading.Condition()
 
-
 class Reader(threading.Thread):
-    def __init__(self, *args, **kwargs):
+    def __init__(self, name, dailyTarget, *args, **kwargs):
         super().__init__(*args, **kwargs)
+        self.name = name
+        self.dailyTarget = dailyTarget
 
-    def read(self):
-
+    def readAyat(self):
         with condition:
-
-            while len(ayats) == 0:
+            if len(quranAyat) == 0:
                 logging.info('no ayats have been read')
                 condition.wait()
-
-            ayats.pop()  
-            logging.info('have read 1 ayat')
-
+            quranAyat.pop()
+            self.dailyTarget += 1
+            logging.info('%s have read Quran, ayat read today added %d', self.name, self.dailyTarget)
             condition.notify()
 
     def run(self):
-        for i in range(20):
+        for i in range(5):
             time.sleep(4)
-            self.read()
+            self.dailyTarget -= 1
+            logging.info('%s have read Quran, the daily target is reduced %d', self.name, self.dailyTarget)
+            if self.dailyTarget <= 5:
+                self.readAyat()
 
-
-class Collector(threading.Thread):
+class DailyTarget(threading.Thread):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
 
-    def collect(self):
-
+    def createDailyTarget(self):
         with condition:
-
-            while len(ayats) == 10:
-                logging.info('ayat collected {}. Stopped'.format(len(ayats)))
+            if len(quranAyat) == 10:
+                logging.info('Daily reading Quran target has been set')
                 condition.wait()
-
-            ayats.append(1)
-            logging.info('total ayats {}'.format(len(ayats)))
-
+            quranAyat.append(1)
+            logging.info('Created 1 target for today, total %d', len(quranAyat))
             condition.notify()
 
     def run(self):
-        for i in range(20):
-            time.sleep(0.2)
-            self.collect()
-
+        for i in range(10):
+            time.sleep(0.1)
+            self.createDailyTarget()
 
 def main():
-    collector = Collector(name='Collector')
-    readers = [Reader(name=name) for name in ['John', 'Doe', 'Alexa', 'Sooho', 'Lee', 'Han', 'Mehmed']]
+    sReader = [Reader(name=name, dailyTarget=10) for name in ['John', 'Doe', 'Alexa', 'Sooho', 'Lee', 'Han', 'Mehmed']]
+    dTarget = DailyTarget(name='Target Creator')
 
-    collector.start()
-
-    for reader in readers:
+    for reader in sReader:
         reader.start()
 
-    collector.join()
+    
+    dTarget.start()
 
-    for reader in readers:
+    for reader in sReader:
         reader.join()
 
-    print('All readers have read Quran today')
-
+    dTarget.join()
 
 if __name__ == "__main__":
     main()
