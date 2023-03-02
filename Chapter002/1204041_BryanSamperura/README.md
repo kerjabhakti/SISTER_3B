@@ -4,7 +4,7 @@
 - Pembelian & Pelayanan Pembelian Mobil Di Auto's Luxury
 
 ## 3 File yang digunakan
-- Barier.py
-- Event.py
-- Rlock.py
+- `Barier.py`
+- `Event.py`
+- `Rlock.py`
 
