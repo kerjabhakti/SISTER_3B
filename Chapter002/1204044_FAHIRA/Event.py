@@ -8,7 +8,7 @@
 # event di-set oleh kelas Producer. Selain itu, 
 # kelas Consumer juga akan mem-clear event setelah 
 # memproses transaksi sehingga Producer dapat memasukkan 
-# transaksi baru ke items di waktu berikutnya.
+# transaksi baru ke items di waktu berikutnya.
 
 import logging
 import threading
