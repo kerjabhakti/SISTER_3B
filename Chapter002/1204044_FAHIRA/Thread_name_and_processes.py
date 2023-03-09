@@ -1,10 +1,14 @@
- # terdapat 2 thread, yaitu Kasir dan Penjual. 
- # Penjual akan menambahkan item ke dalam list 
- # items dan memberitahu Kasir melalui event bahwa 
- # ada item baru yang ditambahkan. Kemudian Kasir 
- # akan mengambil item tersebut dari list items dan 
- # memberitahu bahwa item telah diambil. 
- # Program akan terus berjalan sampai dihentikan secara paksa.
+# kelas Consumer berperan sebagai kasir, dan memiliki fungsi process_transaction() 
+# untuk memasukkan transaksi ke dalam items dan mengeset event. 
+# Kelas Producer akan menghasilkan transaksi secara acak 
+# setiap 2 detik dan memanggil fungsi process_transaction() 
+# dari objek consumer untuk memasukkan transaksi tersebut ke dalam items.
+
+# Kelas Consumer akan terus memproses transaksi dari items setelah 
+# event di-set oleh kelas Producer. Selain itu, 
+# kelas Consumer juga akan mem-clear event setelah 
+# memproses transaksi sehingga Producer dapat memasukkan 
+# transaksi baru ke items di waktu berikutnya.
 
 from threading import Thread
 import time

@@ -8,7 +8,7 @@
 # Kasir akan menerima uang dari pembeli dan 
 # memberikan kembalian jika uang yang diberikan 
 # lebih besar dari total harga. Sistem kasir ini menggunakan 
-# satu thread untuk pembeli dan satu thread untuk kasir. 
+# satu thread untuk pembeli dan satu thread untuk kasir.
 
 import logging
 import threading
