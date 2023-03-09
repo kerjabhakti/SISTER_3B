@@ -12,16 +12,16 @@ item = 0
 
 
 def supplier():
-    logging.info('Supplier is waiting')
+    logging.info('Supplier adds stock')
     semaphore.acquire()
-    logging.info('Supplier notify: item number {}'.format(item))
+    logging.info('Supplier notify: number of items {}'.format(item))
 
 
 def customer():
     global item
     time.sleep(3)
     item = random.randint(0, 1000)
-    logging.info('Customer notify: item number {}'.format(item))
+    logging.info('Customer buy items.')
     semaphore.release()
 
 
