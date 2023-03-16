@@ -1,29 +1,21 @@
 import multiprocessing
 from multiprocessing import Barrier, Lock, Process
-import time
-import random
+from time import time
+from datetime import datetime
 
-# fungsi untuk membaca ayat Al-Quran
-def baca_ayat(ayat, barrier, lock):
-    # mendapatkan nama proses
+
+def read_quran(synchronizer, serializer):
     name = multiprocessing.current_process().name
-
-    # proses sinkronisasi menggunakan Barrier
-    print(f"{name} mempersiapkan diri...")
-    barrier.wait()
-    
-    # proses membaca ayat
-    with lock:
-        print(f"{name} membaca ayat {ayat}...")
-        time.sleep(random.randint(1, 5))
-
-    print(f"{name} selesai membaca ayat {ayat}.")
+    synchronizer.wait()
+    now = time()
+    with serializer:
+        print("Hari ini %s membaca Al-Quran pada %s" \
+              %(name,datetime.fromtimestamp(now).strftime("%H:%M:%S")))
 
 if __name__ == '__main__':
-    # membuat Barrier dan Lock
-    barrier = Barrier(4)
-    lock = Lock()
-
-    # membuat proses untuk membaca ayat
-    for i in range(1, 5):
-        Process(name=f"Proses {i}", target=baca_ayat, args=(i, barrier, lock)).start()
+    synchronizer = Barrier(4)  # 4 proses, sesuai dengan jumlah target harian
+    serializer = Lock()
+    Process(name='Musa', target=read_quran, args=(synchronizer, serializer)).start()
+    Process(name='Aisha', target=read_quran, args=(synchronizer, serializer)).start()
+    Process(name='Umar', target=read_quran, args=(synchronizer, serializer)).start()
+    Process(name='Khadijah', target=read_quran, args=(synchronizer, serializer)).start()
