@@ -1,2 +1,2 @@
-Link Youtube Sinkronisasi Clock Menggunakan Algoritma Berkeley :
-[click here](https://youtu.be/Aoa52LYbPiQ)
+## Link Youtube Sinkronisasi Clock Menggunakan Algoritma Berkeley : 
+#### [Click Here](https://youtu.be/Aoa52LYbPiQ)
