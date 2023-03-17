@@ -120,3 +120,4 @@ Pada kode dibawah ini merupakan blok utama program yang akan dijalankan.Pada kod
 
 Hasil dari program yang sudah di jalankan
 
+![image](https://user-images.githubusercontent.com/80832900/225803692-a968fae8-7d26-4b43-b958-90896a0f8616.png)
