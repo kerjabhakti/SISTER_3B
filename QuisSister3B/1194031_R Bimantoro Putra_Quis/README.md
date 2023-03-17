@@ -1,11 +1,19 @@
-# Muhammad Sapwan Suhadi - 1204037
-## STUDI KASUS : Tugas Akhir
+# R Bimantoro Putra - 1194031
 
-- Pada tugas quis saya mengambil tema "Tugas Akhir" yang dimana pada alurnya terdapat 3 mahasiswa yang akan melakukan tugas akhir. Dalam prosesnya kode tersebut akan menunjukkan bahwa kapan ketiga mahasiswa sidang tersebut akan memulai sidang dan selesai melakukan sidang serta kode tersebut juga akan menampilkan lama waktu sidangnya mahasiswa tersebut secara berurutan. 
+## STUDI KASUS : Kemahasiswaan
 
-- Penjelasan Kode: "Pada kode tersebut, pertama-tama kita mengimpor modul threading, datetime, dan time. Kemudian, kita inisiasi sebuah barrier dengan jumlah thread yang akan dijalankan, dan pada contoh kode di atas, kita inisiasi barrier dengan jumlah 3 thread yang akan dijalankan. Selanjutnya, kita buat tiga fungsi mhs1(), mhs2(), dan mhs3() yang akan dijalankan pada setiap thread. Pada contoh kode di atas, setiap fungsi gungsi mhs hanya melakukan sleep selama 15 detik, tetapi Anda dapat mengganti bagian ini dengan tugas yang lebih kompleks sesuai dengan kebutuhan Anda. Pada setiap fungsi mhs(), kita memulai waktu eksekusi dengan mengambil waktu saat fungsi dijalankan menggunakan datetime.datetime.now(), dan kemudian mencetak waktu tersebut dengan format hari-detik-jam menggunakan strftime. Setelah tugas dijalankan selama 15 detik, kita selesaikan waktu eksekusi dengan mengambil waktu saat ini kembali menggunakan datetime.datetime.now(), dan mencetak waktu tersebut dengan format hari-detik-jam dan juga waktu eksekusi dari awal hingga akhir tugas. Setelah itu, kita menunggu semua thread selesai dijalankan menggunakan method barrier.wait(). Setelah semua thread selesai dijalankan, kita mencetak pesan "Antiran Mahasiswa Sidang Telah Selesai". Setelah itu, kita jalankan thread dan tunggu sampai semua thread selesai dijalankan dengan method join()."
+PENJELASAN
 
-## Hasil Running Program
+1. Pertama-tama, kita melakukan import modul `threading` dan `time`. Modul `threading` digunakan untuk membuat dan mengelola thread, sedangkan modul `time` digunakan untuk mengukur waktu eksekusi program.
+2. Kemudian, kita mendefinisikan variabel global `students` dan `lock`. Variabel `students` berisi dictionary yang berisi nama dan nilai awal skor mahasiswa. Variabel `lock` akan digunakan untuk mengunci (lock) variabel `students` ketika sedang diakses oleh satu thread sehingga tidak bisa diakses oleh thread lain pada saat yang sama.
+3. Selanjutnya, kita mendefinisikan fungsi `student_func` yang akan dijalankan oleh setiap thread. Fungsi ini menerima tiga parameter, yaitu `barrier`, `student_name`, dan `score`. `barrier` adalah objek `Barrier` dari modul `threading` yang akan digunakan untuk sinkronisasi antar thread. `student_name` adalah nama mahasiswa yang akan memperoleh skor, sedangkan `score` adalah jumlah skor yang akan diperoleh oleh mahasiswa tersebut.
+4. Di dalam fungsi `student_func`, kita menggunakan lock untuk memastikan variabel `students` tidak diakses oleh thread lain pada saat yang sama. Setiap thread akan menambahkan skor yang diperoleh ke variabel `students`, kemudian mencetak nama mahasiswa dan jumlah skor yang diperoleh, serta skor keseluruhan dari semua mahasiswa.
+5. Setelah itu, setiap thread akan memanggil perintah `wait()` pada objek `barrier` untuk menunggu thread lain selesai. Ketika semua thread selesai, `barrier` akan melepaskan semua thread secara bersamaan.
+6. Di dalam blok utama program, kita mendefinisikan `tasks` yang berisi daftar tugas yang akan dijalankan. Setiap tugas terdiri dari nama mahasiswa dan jumlah skor yang akan diperoleh.
+7. Kemudian, kita membuat objek `Barrier` dengan jumlah thread yang sama dengan jumlah tugas.
+8. Selanjutnya, kita membuat thread baru untuk setiap tugas menggunakan `for` loop. Setiap thread akan memanggil fungsi `student_func` dengan parameter yang sesuai.
+9. Setelah itu, kita menjalankan semua thread secara bersamaan menggunakan `for` loop dan mencatat waktu mulai eksekusi program.
+10. Setelah semua thread selesai dijalankan, kita menghitung waktu total eksekusi program dan mencetak skor akhir dari setiap mahasiswa.
+11. Tamat
 
-![Running](1204037_Output.png)
-
+    SEKIAN DAN TERIMA KASIH
