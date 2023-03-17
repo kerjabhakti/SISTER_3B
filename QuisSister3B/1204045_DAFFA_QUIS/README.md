@@ -14,4 +14,6 @@ Program tersebut merupakan contoh implementasi multithreading di Python. Secara 
 6. Memulai kedua thread dengan memanggil metode .start() pada t1 dan t2.
 7. Menunggu kedua thread selesai dengan memanggil metode .join() pada t1 dan t2.
 8. Menambahkan pesan print yang menunjukkan bahwa semua tagihan telah diproses dan menunjukkan waktunya.
+
+Berikut merupakan screenshoot hasil seluruh proses
 ![Screenshot output](https://user-images.githubusercontent.com/112412781/225798949-7200c73e-53fc-4fb8-bc37-4fe6ce2fdac4.png)
