@@ -9,4 +9,4 @@ Script ini menggunakan class Kelas untuk membuat objek kelas yang memiliki atrib
 Untuk menghentikan thread ketika tidak ada lagi objek Kelas yang perlu diproses, script menggunakan sebuah event stop_event yang akan diset ketika queue sudah kosong. Kemudian, event ini akan diteruskan ke dalam thread dengan mengirimnya sebagai parameter stop_event. Saat queue sudah kosong, event akan diset dan thread akan berhenti. Setelah semua thread selesai dijalankan, script akan mencetak pesan bahwa proses pengeksekusian beberapa kelas dalam 1 waktu sudah selesai.
 
 
-![Gambar](/SISTER_3B/QuisSister3B/1204044_FAHIRA_QUIS/output.png)
+![image](https://user-images.githubusercontent.com/80674110/225808839-8f60a315-3120-4b2f-b713-0577fc451545.png)
