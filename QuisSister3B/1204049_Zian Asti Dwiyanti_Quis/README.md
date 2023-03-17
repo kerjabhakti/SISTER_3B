@@ -16,3 +16,4 @@ Seluruh proses ini akan ditampilkan waktu saat dimulai dan selesai dieksekusi de
 Sehingga dapat dikatakan bahwa script ini dapat digunakan untuk melakukan pengeksekusian beberapa pekerjaan dalam 1 waktu dengan menggunakan Python dan modul threading serta syncronization, dengan hasil output yang menampilkan waktu saat fungsi tersebut dimulai dan selesai dieksekusi.
 
 ## Screenshoot Hasil Program
+![hasil](https://user-images.githubusercontent.com/79962655/225807507-dac528b5-07d1-4116-92ee-443030e35a86.png)
