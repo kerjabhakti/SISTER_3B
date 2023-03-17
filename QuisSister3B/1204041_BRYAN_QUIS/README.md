@@ -1,7 +1,7 @@
 # Menggunakan Studi Kasus DHS (Data Hasil Studi)
 
 ## Hasil Output :
-![Gambar](/SISTER_3B/QuisSister3B/1204041_BRYAN_QUIS/output.png)
+![Gambar](output.png)
 
 ## Penjelasan :
 - Dalam program ini, kita membuat sebuah simulasi untuk mengecek hasil studi dari beberapa mahasiswa. Pertama-tama, kita memulai dengan mengimport modul threading dan time. Selanjutnya, kita membuat sebuah class Mahasiswa yang memiliki atribut nama dan nilai, serta method cek_lulus yang digunakan untuk mengecek apakah mahasiswa tersebut lulus atau tidak.
