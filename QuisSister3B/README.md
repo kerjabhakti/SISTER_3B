@@ -36,8 +36,8 @@ Sebelumnya pilih studi kasus
 ## Deskripsi QUIS
 
 1. Buat Folder NPM_NAMA_QUIS
-2. Buat file tentang pengeksekusian beberapa pekerjaan dalam 1 waktu [bobot 10]
-3. tambahkan script untuk membandingkan kapan data tersebut berjalan dan berhenti [bobot 10]
-4. Inisiasi sebuah object thread pada python menggunakan threading (chapter 02) dan syncronization, jalankan sesuai studi kasusnya [bobot 10]
-5. Buat urutan prosesnya (berrier/queue) [bobot 10]
-6. Narasikan dan screenshoot hasil seluruh prosesnya kedapan README.md pada folder NPM_NAMA_Quis masing-masing [bobot 20]
+2. Buat file tentang pengeksekusian beberapa pekerjaan dalam 1 waktu [bobot 20]
+3. tambahkan script untuk membandingkan kapan data tersebut berjalan dan berhenti [bobot 20]
+4. Inisiasi sebuah object thread pada python menggunakan threading (chapter 02) dan syncronization, jalankan sesuai studi kasusnya [bobot 20]
+5. Buat urutan prosesnya (berrier/queue) [bobot 15]
+6. Narasikan dan screenshoot hasil seluruh prosesnya kedapan README.md pada folder NPM_NAMA_Quis masing-masing [bobot 25]
