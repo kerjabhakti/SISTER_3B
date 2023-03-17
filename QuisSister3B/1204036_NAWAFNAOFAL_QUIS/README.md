@@ -21,5 +21,6 @@ Untuk urutan prosesnya, pada program ini urutan prosesnya adalah sebagai berikut
 Dengan demikian, urutan prosesnya telah terdefinisi pada program ini.
 
 berikut merupakan screenshoot hasil seluruh prosesnya:
+
 ![image](https://user-images.githubusercontent.com/74226869/225801935-28af0a5f-19ba-47f4-a5ce-61d5efd4dc87.png)
 
