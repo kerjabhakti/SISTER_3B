@@ -1,6 +1,11 @@
 # SISTER_3B
+Kumpulkan semua tugas dan quis disini ya, iya....
+Tugas, Dll Upload disini semua
 
-## Kumpulkan semua tugas dan quis disini ya, iya....
+## Materi Perkilahan
+| No | Materi Perkuliahan |
+| -------- | -------- |
+| 1| https://github.com/kerjabhakti/Python-Pararel_SISTER |
 
 ## Commit dari repo masing-masing :
 - `C(sesuaikan dengan chapter)-NPM-NAMA`
