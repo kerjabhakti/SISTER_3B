@@ -15,3 +15,6 @@ Program Python tersebut adalah sebuah contoh implementasi dari pembagian pekerja
 - Program pada baris 28-29 akan menunjukkan bahwa pekerjaan yang diberikan sedang diproses (dengan mencetak pesan).
 - Program pada baris 32-33, akan mengirim hasil pekerjaan ke manajer tim (rank=0) menggunakan metode 'send' dari objek komunikator MPI.
 - Program pada baris 35, akan memberi pesan bahwa anggota tim telah selesai mengerjakan tugas.
+
+## Output
+![image](https://user-images.githubusercontent.com/112412781/228729804-dc830952-2a77-4853-8fbc-77deecb418a2.png)
