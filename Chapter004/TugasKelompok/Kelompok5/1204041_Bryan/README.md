@@ -1,3 +1,4 @@
+## Penjelasan Kode Program
 Program di atas menggunakan konsep MPI (Message Passing Interface) untuk mengimplementasikan studi kasus nilai ujian. Program terdiri dari dua jenis proses yaitu server dan mahasiswa.
 
 Pada awal program, setiap proses memanggil fungsi MPI.COMM_WORLD untuk membuat communicator baru, dan kemudian memperoleh rank-nya dengan memanggil comm.rank.
