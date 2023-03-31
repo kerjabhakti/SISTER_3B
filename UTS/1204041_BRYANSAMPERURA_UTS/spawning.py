@@ -26,7 +26,7 @@ if __name__ == '__main__':
         p.join()
 
 
-
+# Contoh Coba Memahami Code Program
 # import multiprocessing
 
 # def myFunc(i):
