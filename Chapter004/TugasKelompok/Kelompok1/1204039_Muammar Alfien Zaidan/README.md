@@ -15,3 +15,6 @@ Pada baris 21-27, jika rank=0 (yaitu proses root), maka program akan mencetak pe
 Pada baris 29-32, jika rank bukan 0, maka program akan mencetak pesan bahwa proses tersebut melakukan operasi pada data absen pegawai dengan nomor pegawai sesuai dengan nomor rank proses tersebut.
 
 Pada baris 31, ada pengecekan if my_absen is not None karena jika key pegawaiX tidak ada di dictionary absen_pegawai, maka my_absen akan tetap bernilai None, sehingga operasi tidak perlu dilakukan.
+
+## Hasil Output :
+![Gambar SS](MPI-output.png)
