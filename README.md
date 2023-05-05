@@ -27,7 +27,7 @@ Tugas, Dll Upload disini semua
 
 - Kelompok 5 : (1204037) Muhammad Sapwan Suhadi, & (1204045) Muhammad Rifqi Daffa
 
-## Nilai 
+## Nilai
 | No | NPM | NAMA | UTS |
 | -------- | -------- |-------- |-------- |
 | 1 | 1194031 | R. Bimantoro Putra | |
