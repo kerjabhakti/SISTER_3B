@@ -9,3 +9,10 @@ Ketika menjalankan "addTask_main.py", task "add" akan dijalankan dengan mengguna
 # Menjalankan Program
   
 Untuk menjalankan aplikasi ini, pastikan menginstal Celery dan RabbitMQ terlebih dahulu. Selain itu, tidak lupa untuk menjalankan RabbitMQ server pada URL yang sesuai dengan konfigurasi di file "addTask.py".
+
+  ![image](https://github.com/ilmanaqilaa/SISTER_3B/assets/80626628/b8123380-a727-4a81-bda2-8225bffa6784)
+
+  
+# Hasil dari program
+  
+  ![image](https://github.com/ilmanaqilaa/SISTER_3B/assets/80626628/224d54d7-de17-45f0-9dae-4d93d9265784)
