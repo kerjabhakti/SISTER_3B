@@ -10,13 +10,14 @@ File "client.py" adalah file yang berperan sebagai klien. Di dalam file ini, kit
 ```python
 py server.py
 ```
+![image](https://github.com/daulJsx/SISTER_3B/assets/112412781/9087fda2-bc22-46f8-ab6e-a3b6d1446965)
 
 
 2. Menjalakan program client1
 ```python
 py client.py
 ```
-
+![image](https://github.com/daulJsx/SISTER_3B/assets/112412781/89caeb99-7203-49e0-bee4-c2affbbe8beb)
 
 
 # Tema Client Server 2: Proses Pemesanan Makanan
@@ -31,10 +32,11 @@ File "client2.py" adalah file yang bertindak sebagai klien. Di dalam file ini, k
 ```python
 py server2.py
 ```
+![image](https://github.com/daulJsx/SISTER_3B/assets/112412781/8e91eeb1-3f85-414b-9b7c-51f7f3cf9df2)
 
 
 2. Menjalakan program client1
 ```python
 py client2.py
 ```
-
+![image](https://github.com/daulJsx/SISTER_3B/assets/112412781/8ffda0e7-6f51-4ae1-860a-c54fc237df30)
