@@ -28,10 +28,11 @@ py pyro_client.py
 # Output Program
 
 1. Menjalankan server pyro4
-
+![image](https://github.com/daulJsx/SISTER_3B/assets/112412781/d64f9f86-628e-44b0-a598-238cc36b814d)
 
 2. Server
-
+![image](https://github.com/daulJsx/SISTER_3B/assets/112412781/c87e707c-8a5e-4653-a9a1-8e59e3675277)
 
 3. Client
+![image](https://github.com/daulJsx/SISTER_3B/assets/112412781/f7d1b1c7-fc42-4336-a528-1908c871c03a)
 
