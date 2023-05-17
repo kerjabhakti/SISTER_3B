@@ -1,4 +1,4 @@
-# Tema: Proses Pemutaran Film
+# Tema: Proses Pemesanan Makanan
 
 File "chainTopology.py" berisi definisi kelas Chain yang memiliki metode process. Metode ini digunakan untuk mengolah pesan dalam sebuah rantai topologi. Setiap objek Chain memiliki nama dan nama server saat ini, serta dapat memanggil metode process pada server berikutnya dalam rantai.
 
