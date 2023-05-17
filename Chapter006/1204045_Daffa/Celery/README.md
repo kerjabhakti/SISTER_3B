@@ -11,3 +11,5 @@ Ketika menjalankan "addTask_main.py", tugas "add" akan dijalankan menggunakan Ce
 Sebelum menggunakan aplikasi ini, pastikan Anda telah menginstal Celery dan RabbitMQ. Selain itu, jangan lupa untuk menjalankan server RabbitMQ dengan URL yang sesuai yang terkonfigurasi di file "addTask.py".
 
 # Output
+  
+  ![image](https://github.com/daulJsx/SISTER_3B/assets/112412781/a8b716e7-df84-4f2c-8376-9876ab4e8981)
