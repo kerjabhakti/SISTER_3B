@@ -16,7 +16,7 @@ Ini adalah modul yang menggunakan Celery untuk melakukan tugas secara asinkron. 
 
 # Menjalankan Program
   
-Sebelum dapat menjalankan aplikasi ini, pastikan Anda telah menginstal Celery dan RabbitMQ. Selain itu, jangan lupa untuk menjalankan server RabbitMQ dengan URL yang sesuai seperti yang terkonfigurasi di file "addTask.py".
+Sebelum dapat menjalankan aplikasi ini, pastikan Anda telah menginstal Celery, erlang 25.3.2, dan RabbitMQ 3.11.16. Selain itu, jangan lupa untuk menjalankan server RabbitMQ dengan URL yang sesuai seperti yang terkonfigurasi di file "addTask.py".
 
 
 # Hasil dari program
@@ -30,8 +30,6 @@ Sebelum dapat menjalankan aplikasi ini, pastikan Anda telah menginstal Celery da
 - First Example
 
 1.	`pyro_client.py`:
-File "pyro_client.py" adalah file client yang digunakan untuk berkomunikasi dengan server Pyro. Dalam file tersebut, Pyro4 digunakan untuk membuat proxy ke objek server dan memanggil metode "welcomeMessage" dengan memberikan nama film sebagai argumen.
-
 File ini merupakan client yang menggunakan library Pyro4 untuk berkomunikasi dengan server. Pada awalnya, ada baris yang di-comment dengan `#uri = input("insert the PYRO4 server URI (help : PYRONAME:server) ").strip()`, yang dapat digunakan untuk memasukkan URI server Pyro4 secara manual. Kemudian, pengguna diminta untuk memasukkan nickname melalui `name = input("Mau beli buku dengan judul apa? ").strip()`. Selanjutnya, client menggunakan proxy Pyro4 untuk menghubungi server menggunakan URI PYRONAME:server. Setelah itu, client mencetak pesan selamat datang yang diterima dari server. Contoh ini bertujuan untuk menunjukkan penggunaan Pyro4 dalam komunikasi antara klien dan server.
 
 
