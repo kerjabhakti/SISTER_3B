@@ -9,7 +9,7 @@ Pada tugas chapter 006 ini terdapat 3 latihan project terkait Celery, Pyro4 dan 
 > Studi Kasus E-Library: Menampilkan banyaknya halaman buku yang telah dibaca
 
 1. `addTask_main.py` :
-Ini adalah file utama yang mengimpor modul addTask dan menggunakan fungsi `add()` dari modul tersebut. Fungsi `add()` mengambil dua parameter x dan y, dan mengembalikan hasil penjumlahan keduanya. Pada contoh ini, fungsi `add()` dipanggil dengan argumen 4 dan halaman, dan hasilnya disimpan dalam variabel result. Kemudian, hasilnya dicetak menggunakan pernyataan print(). Contoh ini bertujuan untuk menunjukkan penggunaan modul addTask dalam skrip utama.
+Ini adalah file utama yang mengimpor modul addTask dan menggunakan fungsi `add()` dari modul tersebut. Fungsi `add()` mengambil dua parameter x dan y, dan mengembalikan hasil penjumlahan keduanya. Pada contoh ini, fungsi add dipanggil dengan argumen kamu telah membaca 4 dan halaman dan  menggunakan task delay untuk menambahkan tugas dengan argumen tertentu ke dalam antrian tugas terdistribusi. Kode tersebut mengimport modul addTask dan memeriksa jika skrip dijalankan langsung. Contoh ini bertujuan untuk menunjukkan penggunaan modul addTask dalam skrip utama.
 
 2. `addTask.py`:
 Ini adalah modul yang menggunakan Celery untuk melakukan tugas secara asinkron. Modul ini mendefinisikan objek Celery dengan nama addTask dan menggunakan broker `AMQP (amqp://guest@localhost//)` untuk mengatur komunikasi antara pengirim dan penerima tugas. Terdapat fungsi `add()` yang didekorasi dengan @app.task, yang berarti fungsi ini akan dianggap sebagai tugas Celery yang dapat dipanggil secara asinkron. Fungsi `add()` mengambil dua parameter `x` dan `y`, dan mengembalikan hasil penjumlahan keduanya. Modul ini bertujuan untuk menunjukkan penggunaan Celery dalam membuat dan menjalankan tugas async sederhana.
@@ -17,11 +17,14 @@ Ini adalah modul yang menggunakan Celery untuk melakukan tugas secara asinkron. 
 # Menjalankan Program
   
 Sebelum dapat menjalankan aplikasi ini, pastikan Anda telah menginstal Celery, erlang 25.3.2, dan RabbitMQ 3.11.16. Selain itu, jangan lupa untuk menjalankan server RabbitMQ dengan URL yang sesuai seperti yang terkonfigurasi di file "addTask.py".
-
+ 
+  ![image](https://github.com/fahiraaa06/SISTER_3B/assets/80674110/ab2ce28d-5311-4137-a27c-e0b38852df4c)
+  
 
 # Hasil dari program
-  
-  
+
+  ![image](https://github.com/fahiraaa06/SISTER_3B/assets/80674110/26aa7b67-c27a-4408-8c78-19463fb29900)
+ 
 
 
 # Pyro4
@@ -64,12 +67,24 @@ File-file ini membentuk topologi rantai dengan tiga server yang saling terhubung
   
 Sebelum dapat menjalankan aplikasi ini, dalam folder `Pyro4` kita harus menjalankan perintah `python -m Pyro4.naming` terlebih dahulu untuk menjalankan server Pyro4 nya
 
+![image](https://github.com/fahiraaa06/SISTER_3B/assets/80674110/ab7d0eca-cacc-419b-ae58-92c841396966)
 
 # Hasil dari program
  - Output First Example : 
+ 
+  ![image](https://github.com/fahiraaa06/SISTER_3B/assets/80674110/e2f66aa0-c9da-4bf4-bd43-fa36ac20b16e)
 
+  ![image](https://github.com/fahiraaa06/SISTER_3B/assets/80674110/f186324e-c2f6-4681-a81c-acbda085a648)
+  
  - Output Second Example :
+ 
+  ![image](https://github.com/fahiraaa06/SISTER_3B/assets/80674110/c5105d54-9947-4331-a07b-1444e8fa3ea0)
 
+  ![image](https://github.com/fahiraaa06/SISTER_3B/assets/80674110/cecccef7-f466-45b4-8248-b0d29d104590)
+
+  ![image](https://github.com/fahiraaa06/SISTER_3B/assets/80674110/feb1e21f-f142-4cdc-ac2d-5de2e9cbd4c4)
+  
+  ![image](https://github.com/fahiraaa06/SISTER_3B/assets/80674110/85910fd3-d4e2-4c2d-a18c-4ff670fff9bc)
 
 # Socket
 
@@ -78,7 +93,7 @@ Sebelum dapat menjalankan aplikasi ini, dalam folder `Pyro4` kita harus menjalan
 File ini merupakan implementasi server socket yang membuat socket dan mengaitkannya dengan alamat dan port spesifik. Server ini akan terus mendengarkan koneksi yang datang dari klien. Setiap kali ada koneksi masuk, server akan mengirimkan waktu saat ini kepada klien. Setelah itu, koneksi akan ditutup. File `server.py` berfungsi sebagai server. Di dalam file ini, kita membuat objek socket menggunakan modul socket, mengaitkannya dengan alamat host dan port tertentu, dan kemudian menerima koneksi yang masuk. Setiap kali ada koneksi masuk, kita menerima koneksi tersebut dan mencetak informasi tentang pengguna yang terhubung. Selanjutnya, kita mengirimkan waktu saat ini kepada klien dan menutup koneksi.
 
 2. `client.py`
-File `client.py` adalah implementasi client socket yang melakukan koneksi ke server soket dengan alamat dan port tertentu. Setelah terhubung, klien menerima pesan dari server dan mencetaknya. Pesan tersebut berisi waktu saat ini yang dikirim oleh server. File `client.py` berfungsi sebagai klien. Di dalam file ini, kita membuat objek soket menggunakan modul soket, dan kemudian kita melakukan koneksi ke server menggunakan alamat host dan port yang sama. Setelah terhubung, kita menerima data dari server, yaitu waktu saat ini, dan mencetak pesan sambutan bersama dengan waktu tersebut. Setelah itu, koneksi ditutup.
+File `client.py` adalah implementasi client socket yang melakukan koneksi ke server soket dengan alamat dan port tertentu. Setelah terhubung, klien menerima pesan dari server dan mencetaknya. Pesan tersebut berisi waktu saat ini yang dikirim oleh server. File `client.py` berfungsi sebagai client. Di dalam file ini, kita membuat objek soket menggunakan modul soket, dan kemudian kita melakukan koneksi ke server menggunakan alamat host dan port yang sama. Setelah terhubung, kita menerima data dari server, yaitu waktu saat ini, dan mencetak pesan sambutan bersama dengan waktu tersebut. Setelah itu, koneksi ditutup.
 
 3.	`server2.py`
 File ini merupakan implementasi lain dari server socket yang membuat socket dan mengaitkannya dengan alamat dan port tertentu. Selain itu, server ini juga mendengarkan koneksi dari klien. Saat ada koneksi masuk, server akan menerima pesan dari klien, membuka file `mytext.txt`, dan mengirimkan konten file tersebut ke klien dalam blok ukuran `1024 byte`. Setelah selesai mengirimkan data, server akan mengirim pesan `Peminjaman buku telah selesai diproses` kepada klien sebelum menutup koneksi.
@@ -88,16 +103,22 @@ File ini merupakan implementasi lain dari client socket yang melakukan koneksi k
 
 
 # Hasil dari program
- - Output client 1: 
+ - Output server & client 1: 
 
- - Output client 2:
+    ![image](https://github.com/fahiraaa06/SISTER_3B/assets/80674110/54097632-43b1-48fa-9cf5-0d3232da5404)
+
+    ![image](https://github.com/fahiraaa06/SISTER_3B/assets/80674110/edacde97-3295-40d1-b972-3993e40d4593)
+
+ - Output server & client 2:
  
+    ![image](https://github.com/fahiraaa06/SISTER_3B/assets/80674110/aa88d97a-b6dd-4eb2-a954-85da2f196bdf)
 
+    ![image](https://github.com/fahiraaa06/SISTER_3B/assets/80674110/79a85094-ec76-4891-8db9-18e0f2619ce6)
 
 
 # Link Youtube Untuk Chapter 006 - Fahira 
 
-[Link Video Youtube]()
+[Link Video Youtube](https://youtu.be/q6ZvEGUXkiU)
 
 
 
