@@ -11,3 +11,4 @@
 Sebelum menggunakan aplikasi ini, pastikan Anda telah menginstal Celery dan RabbitMQ. Selain itu, jangan lupa untuk menjalankan server RabbitMQ dengan URL yang sesuai yang terkonfigurasi di file "addTask.py".
 
 # Output
+![image](SISTER OUTPUT/Chapter006/addtask_main.png)
