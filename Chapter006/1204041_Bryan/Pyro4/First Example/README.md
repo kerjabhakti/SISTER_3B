@@ -28,11 +28,11 @@ py pyro_client.py
 # Output Program
 
 1. Menjalankan server pyro4
-![image]()
+![image](https://raw.githubusercontent.com/BryanFlava/asset-gambar/main/SISTER%20OUTPUT/Chapter006/pyro_1.png)
 
 2. Server
-![image]()
+![image](https://raw.githubusercontent.com/BryanFlava/asset-gambar/main/SISTER%20OUTPUT/Chapter006/pyro_2.png)
 
 3. Client
-![image]()
+![image](https://raw.githubusercontent.com/BryanFlava/asset-gambar/main/SISTER%20OUTPUT/Chapter006/pyro_3.png)
 

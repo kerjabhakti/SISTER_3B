@@ -13,26 +13,26 @@
 ```python
 python -m Pyro4.naming
 ```
-![image]()
+![image](https://raw.githubusercontent.com/BryanFlava/asset-gambar/main/SISTER%20OUTPUT/Chapter006/Screenshot%202023-05-18%20232045.png)
 
 2. Menyalakan server chain 1, 2 dan 3
 
 ```python
 py server_chain_1.py
 ```
-![image]()
+![image](https://raw.githubusercontent.com/BryanFlava/asset-gambar/main/SISTER%20OUTPUT/Chapter006/Screenshot%202023-05-18%20232234.png)
 
 
 ```python
 py server_chain_2.py
 ```
-![image]()
+![image](https://raw.githubusercontent.com/BryanFlava/asset-gambar/main/SISTER%20OUTPUT/Chapter006/Screenshot%202023-05-18%20232306.png)
 
 
 ```python
 py server_chain_3.py
 ```
-![image]()
+![image](https://raw.githubusercontent.com/BryanFlava/asset-gambar/main/SISTER%20OUTPUT/Chapter006/Screenshot%202023-05-18%20232334.png)
 
 
 3. Menjalankan program client
@@ -40,5 +40,5 @@ py server_chain_3.py
 ```python
 py client_chain.py
 ```
-![image]()
+![image](https://raw.githubusercontent.com/BryanFlava/asset-gambar/main/SISTER%20OUTPUT/Chapter006/Screenshot%202023-05-18%20232405.png)
 

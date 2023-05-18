@@ -10,14 +10,14 @@
 ```python
 py server.py
 ```
-![image]()
+![image](https://raw.githubusercontent.com/BryanFlava/asset-gambar/main/SISTER%20OUTPUT/Chapter006/Screenshot%202023-05-18%20232620.png)
 
 
 2. Menjalakan program client1
 ```python
 py client.py
 ```
-![image]()
+![image](https://raw.githubusercontent.com/BryanFlava/asset-gambar/main/SISTER%20OUTPUT/Chapter006/Screenshot%202023-05-18%20232631.png)
 
 
 # Tema Client Server 2: Proses Pembelian Membership
@@ -31,11 +31,11 @@ py client.py
 ```python
 py server2.py
 ```
-![image]()
+![image](https://raw.githubusercontent.com/BryanFlava/asset-gambar/main/SISTER%20OUTPUT/Chapter006/Screenshot%202023-05-18%20232738.png)
 
 
 2. Menjalakan program client1
 ```python
 py client2.py
 ```
-![image]()
+![image](https://raw.githubusercontent.com/BryanFlava/asset-gambar/main/SISTER%20OUTPUT/Chapter006/Screenshot%202023-05-18%20232752.png)
