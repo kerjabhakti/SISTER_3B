@@ -8,35 +8,19 @@
 
 **Batas waktu pengumpulan tugas H-1 Perkuliahan**
 
-**Selamat mengerjakan**\
+**Selamat mengerjakan**
 
 ### Presentasi : 
-1. 1204029 - Fadil Febriansyah - Sudah
-- Kendala : Tidak ada
-
-2. 1204037 - Muhammad Safwan Suhadi - Sudah
-- Kendala :  Tidak ada
-
-3. 1204053 - Resa Rianti - Sudah
- - Kendala : Kendala masih error mengambil filenya.
-
-4. 1204049 - Zian Asti Dwiyanti - Sudah
-- Kendala : Tidak ada
-
-5. 120439 - Muammar Alfien Zaidan - Sudah
-- Kendala : Tidak ada
-
-6. 1204041 - Bryan Samperura - Sudah
-- Kendala : Tidak ada
-
-7. 1204044 - Fahira - Sudah
-- Kendala : Tidak ada
-
-8. 1204055 - Ilman - Sudah
-- Kendala : Tidak ada
-
-9. 1204045 - Daffa - Sudah
-- Kendala : Tidak Ada
-
-10. 1204036 - Nawaf Naofal - Sudah
-- Kendala : Tidak Ada
+| No | NPM | NAMA | Presentasi | Kendala |
+| -------- | -------- |-------- |-------- |-------- |
+| 1 | 1194031 | R. Bimantoro Putra | Belum | Tidak Mengerjakan |
+| 2 | 1204029 | Fadil Febriansyah | Sudah | - |
+| 3 | 1204036 | Nawaf Naofal | Sudah | - |
+| 4 | 1204037 | Muhammad Sapwan Suhadi | Sudah | - |
+| 5 | 1204039 | Muammar Alfien Zaidan | Sudah | - |
+| 6 | 1204041 | Bryan Samperura | Sudah | - |
+| 7 | 1204044 | Fahira | Sudah | - |
+| 8 | 11204045 | Muhammad Rifqi Daffa |Sudah| - |
+| 9 | 1204049 | Zian Asti Dwiyanti | Sudah | - |
+| 10 | 1204053 | Resa Rianti | Sudah | - |
+| 11 | 1204055 | Muhammad Ilman Aqilaa | Sudah | - |
