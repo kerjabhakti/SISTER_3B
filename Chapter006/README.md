@@ -8,7 +8,7 @@
 
 **Batas waktu pengumpulan tugas H-1 Perkuliahan**
 
-**Selamat mengerjakan**\
+**Selamat mengerjakan**
 
 ### Presentasi : 
 
