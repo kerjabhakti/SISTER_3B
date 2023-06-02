@@ -11,20 +11,32 @@
 **Selamat mengerjakan**\
 
 ### Presentasi : 
-1. 1204029 - Fadil Febriansyah
-- Kendala : -
+1. 1204029 - Fadil Febriansyah - Sudah
+- Kendala : Tidak ada
 
-2. 1204037 - Muhammad Safwan Suhadi
-- Kendala :  -
+2. 1204037 - Muhammad Safwan Suhadi - Sudah
+- Kendala :  Tidak ada
 
-3. 1204053 - Resa Rianti 
+3. 1204053 - Resa Rianti - Sudah
  - Kendala : Kendala masih error mengambil filenya.
 
-4. 1204049 - Zian Asti Dwiyanti
-- Kendala : -
+4. 1204049 - Zian Asti Dwiyanti - Sudah
+- Kendala : Tidak ada
 
-5. 120439 - Muammar Alfien Zaidan
-- Kendala : -
+5. 120439 - Muammar Alfien Zaidan - Sudah
+- Kendala : Tidak ada
 
-6. 1204041 - Bryan Samperura
-- Kendala : -
+6. 1204041 - Bryan Samperura - Sudah
+- Kendala : Tidak ada
+
+7. 1204044 - Fahira - Sudah
+- Kendala : Tidak ada
+
+8. 1204055 - Ilman - Sudah
+- Kendala : 
+
+9. 1204045 - Daffa - Sudah
+- Kendala : 
+
+10. 1204036 - Nawaf Naofal - Sudah
+- Kendala : 
