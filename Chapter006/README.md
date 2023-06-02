@@ -33,10 +33,10 @@
 - Kendala : Tidak ada
 
 8. 1204055 - Ilman - Sudah
-- Kendala : 
+- Kendala : Tidak ada
 
 9. 1204045 - Daffa - Sudah
-- Kendala : 
+- Kendala : Tidak Ada
 
 10. 1204036 - Nawaf Naofal - Sudah
 - Kendala : 
