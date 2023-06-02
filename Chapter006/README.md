@@ -11,20 +11,17 @@
 **Selamat mengerjakan**\
 
 ### Presentasi : 
-1. 1204029 - Fadil Febriansyah
-- Kendala : -
 
-2. 1204037 - Muhammad Safwan Suhadi
-- Kendala :  -
-
-3. 1204053 - Resa Rianti 
- - Kendala : Kendala masih error mengambil filenya.
-
-4. 1204049 - Zian Asti Dwiyanti
-- Kendala : -
-
-5. 120439 - Muammar Alfien Zaidan
-- Kendala : -
-
-6. 1204041 - Bryan Samperura
-- Kendala : -
+| No | NPM | NAMA | Presentasi | Kendala |
+| -------- | -------- |-------- |-------- |-------- |
+| 1 | 1194031 | R. Bimantoro Putra | Belum | Tidak Mengerjakan |
+| 2 | 1204029 | Fadil Febriansyah | Sudah | - |
+| 3 | 1204036 | Nawaf Naofal | Sudah | - |
+| 4 | 1204037 | Muhammad Sapwan Suhadi | Sudah | - |
+| 5 | 1204039 | Muammar Alfien Zaidan | Sudah | - |
+| 6 | 1204041 | Bryan Samperura | Sudah | - |
+| 7 | 1204044 | Fahira | Sudah | - |
+| 8 | 11204045 | Muhammad Rifqi Daffa |Sudah| - |
+| 9 | 1204049 | Zian Asti Dwiyanti | Sudah | - |
+| 10 | 1204053 | Resa Rianti | Sudah | - |
+| 11 | 1204055 | Muhammad Ilman Aqilaa | Sudah | - |
