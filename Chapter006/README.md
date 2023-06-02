@@ -8,4 +8,23 @@
 
 **Batas waktu pengumpulan tugas H-1 Perkuliahan**
 
-**Selamat mengerjakan**
+**Selamat mengerjakan**\
+
+### Presentasi : 
+1. 1204029 - Fadil Febriansyah
+- Kendala : -
+
+2. 1204037 - Muhammad Safwan Suhadi
+- Kendala :  -
+
+3. 1204053 - Resa Rianti 
+ - Kendala : Kendala masih error mengambil filenya.
+
+4. 1204049 - Zian Asti Dwiyanti
+- Kendala : -
+
+5. 120439 - Muammar Alfien Zaidan
+- Kendala : -
+
+6. 1204041 - Bryan Samperura
+- Kendala : -
