@@ -39,4 +39,4 @@
 - Kendala : Tidak Ada
 
 10. 1204036 - Nawaf Naofal - Sudah
-- Kendala : 
+- Kendala : Tidak Ada
