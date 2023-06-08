@@ -11,7 +11,6 @@
 **Selamat mengerjakan**
 
 ### Presentasi : 
-
 | No | NPM | NAMA | Presentasi | Kendala |
 | -------- | -------- |-------- |-------- |-------- |
 | 1 | 1194031 | R. Bimantoro Putra | Belum | Tidak Mengerjakan |
