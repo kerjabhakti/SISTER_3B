@@ -105,3 +105,7 @@ if __name__ == '__main__':
 - Menutup event loop setelah selesai.
 
 Dengan menjalankan program ini, Anda dapat mensimulasikan pertarungan antara pemain dan monster dengan memberikan level pemain dan kekuatan monster sebagai argumen saat menjalankan program. Hasil pertarungan akan dicetak di output.
+
+Output:
+
+![image](https://github.com/nawafnaofal/SISTER_3B_KELOMPOK2/assets/74226869/f762fd4e-3e87-417e-8528-65144a95d375)
