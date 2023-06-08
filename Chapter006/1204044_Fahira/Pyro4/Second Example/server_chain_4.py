@@ -2,8 +2,8 @@ from __future__ import print_function
 import Pyro4
 import chainTopology
 
-current_server = "3"
-next_server = "4"
+current_server = "4"
+next_server = "1"
 
 servername = "example.chainTopology." + current_server
 
