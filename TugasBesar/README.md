@@ -9,8 +9,43 @@ Rincian TB terdiri dari
 
 ## Data Kelompok - Tuliskan Judulnya dibawah ini
 
-- Kelompok 1 : (1204039) Muammar Alfien Zaidan, & (1204029) Fadil Febriansyah (JUDUL)
-- Kelompok 2 : (1204036) Nawaf Naofal, & (1194031) R. Bimantoro Putra (JUDUL)
-- Kelompok 3 : (1204044) Fahira, (1204049) Zian Asti Dwiyanti, & (1204053) Resa Rianti (JUDUL)
-- Kelompok 4 : (1204041) Bryan Samperura, & (1204055) Muhammad Ilman Aqilaa (JUDUL)
+- Kelompok 1 : (1204039) Muammar Alfien Zaidan, & (1204029) Fadil Febriansyah (Program Paralel Bertema Pengumpulan Tugas Menggunakan Python)
+- Kelompok 2 : (1204036) Nawaf Naofal, & (1194031) R. Bimantoro Putra (Game)
+- Kelompok 3 : (1204044) Fahira, (1204049) Zian Asti Dwiyanti, & (1204053) Resa Rianti (Sistem Pencatatan Penjualan dan Inventaris)
+- Kelompok 4 : (1204041) Bryan Samperura, & (1204055) Muhammad Ilman Aqilaa (Menjelajahi Program Paralel Python untuk Pesanan Pembelian Mobil)
 - Kelompok 5 : (1204037) Muhammad Sapwan Suhadi, & (1204045) Muhammad Rifqi Daffa Ulhaq(Pengolahan Paralel dalam Sistem Tersebar untuk Pemesanan Makanan)
+
+
+# KOMPONEN PENILAIAN
+
+| Pertanyaan   | Presentasi 1x  | Presentasi 2x | 
+| ----------- | ----------- | ----------- |
+| 1 | 100 | 85 | 
+| 2 | 85 | 70 | 
+| 3 | 70 | 55  |
+| 4 | 55 | 40  |
+
+## **Tanpa README.Md** pada Push TB Nya akan **dikurangi 10 Point**
+# RUMUS PEMBAGIAN NILAI 
+## ==> (Nilai coding presentasi + Penjelasan Readme)
+| A = 4 | AB = 3,5 | B = 3 | BC = 2,5 |C = 2 |D = 1 | E = 0|
+| -------- | -------- | -------- | -------- |-------- |-------- |-------- |
+| 85 - 100 | 78 - 84,99 | 70 - 77,99 | 65 - 69,99 | 60 - 64,99 | 41 - 59,99 | <40,99|
+
+Silahkan pilih studi kasus sesuai dengan judul masing-masing,
+kerjakan perkelompok
+
+# PRESENTASI CODE TUGAS BESAR SISTEM TERSEBAR(❌/✔️)
+| NO | NPM | Nama | Soal 1 | Soal 2 | Soal 3 | Nilai | Keterangan
+| -------- | -------- | -------- | -------- |-------- |-------- | -------- | -------- |
+| 1 | 1194031 | R. Bimantoro Putra | | | | | | |
+| 2 | 1204029 | Fadil Febriansyah | | | | | |
+| 3 | 1204036 | Nawaf Naofal | | | | | |
+| 4 | 1204037 | Muhammad Sapwan Suhadi | | | | | |
+| 5 | 1204039 | Muammar Alfien Zaidan | | | | | |
+| 6 | 1204041 | Bryan Samperura | | | | | |
+| 7 | 1204044 | Fahira | | | | | |
+| 8 | 11204045 | Muhammad Rifqi Daffa | | | | | |
+| 9 | 1204049 | Zian Asti Dwiyanti | | | | | |
+| 10 | 1204053 | Resa Rianti | | | | | |
+| 11 | 1204055 | Muhammad Ilman Aqilaa | | | | | |
