@@ -47,5 +47,5 @@ kerjakan perkelompok
 | 6 | 1204029 | Fadil Febriansyah |✔️|✔️| ✔️|100|OK |
 | 7 | 1204039 | Muammar Alfien Zaidan |✔️|✔️| ✔️|100|OK |
 | 8 | 1204036 | Nawaf Naofal |✔️|✔️| ✔️|100|OK |
-| 9 | 1204045 | Muhammad Rifqi Daffa Ulhaq | | | | |OK |
-| 10 | 1204037 | Muhammad Sapwan Suhadi |0|0 | 0| 0|0 |
+| 9 | 1204045 | Muhammad Rifqi Daffa Ulhaq |✔️|✔️| ✔️|100|OK |
+| 10 | 1204037 | Muhammad Sapwan Suhadi |✔️|✔️| ✔️|100|OK |
