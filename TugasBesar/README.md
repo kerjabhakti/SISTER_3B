@@ -42,10 +42,10 @@ kerjakan perkelompok
 | 1 | 1204044 | Fahira |0|0 | 0| 0|Minggu Depan |
 | 2 | 1204049 | Zian Asti Dwiyanti |✔️|✔️| ✔️|100|OK |
 | 3 | 1204053 | Resa Rianti |✔️|✔️| ✔️|90|Studi Kasus tidak lengkap |
-| 4 | 1204041 | Bryan Samperura |0|0 | 0| 0|0 |
-| 5 | 1204055 | Muhammad Ilman Aqilaa |0|0 | 0| 0|0 |
-| 0 | 0 | 0 |0|0 | 0| 0|0 |
-| 0 | 0 | 0 |0|0 | 0| 0|0 |
-| 0 | 0 | 0 |0|0 | 0| 0|0 |
-| 0 | 0 | 0 |0|0 | 0| 0|0 |
-| 0 | 0 | 0 |0|0 | 0| 0|0 |
+| 4 | 1204041 | Bryan Samperura |✔️|✔️| ✔️|100|OK |
+| 5 | 1204055 | Muhammad Ilman Aqilaa |✔️|✔️| ✔️|100|OK |
+| 6 | 1204029 | Fadil Febriansyah |✔️|✔️| ✔️|100|OK |
+| 7 | 1204039 | Muammar Alfien Zaidan |✔️|✔️| ✔️|100|OK |
+| 8 | 1204036 | Nawaf Naofal |✔️|✔️| ✔️|100|OK |
+| 9 | 1204045 | Muhammad Rifqi Daffa Ulhaq | | | | |OK |
+| 10 | 1204037 | Muhammad Sapwan Suhadi |0|0 | 0| 0|0 |
