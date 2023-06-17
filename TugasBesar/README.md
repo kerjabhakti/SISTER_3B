@@ -39,7 +39,7 @@ kerjakan perkelompok
 
 | NO | NPM | Nama | Soal 1 | Soal 2 | Soal 3 | Nilai | Keterangan
 | -------- | -------- | -------- | -------- |-------- |-------- | -------- | -------- |
-| 1 | 1204044 | Fahira |0|0 | 0| 0|Minggu Depan |
+| 1 | 1204044 | Fahira |✔️|✔️| ✔️|100|OK |
 | 2 | 1204049 | Zian Asti Dwiyanti |✔️|✔️| ✔️|100|OK |
 | 3 | 1204053 | Resa Rianti |✔️|✔️| ✔️|90|Studi Kasus tidak lengkap |
 | 4 | 1204041 | Bryan Samperura |✔️|✔️| ✔️|100|OK |
